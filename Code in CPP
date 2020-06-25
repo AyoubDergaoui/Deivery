@@ -1,6 +1,3 @@
-/*
-Solution by Mohammed Khalil Ait Brahim
-*/
 #include <iostream>
 #include <algorithm>
 #include <cmath>
