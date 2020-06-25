@@ -9,7 +9,3 @@ all possible ways (generating all permutations of n elements) but this will time
 The idea here is to use Binary search with Held–Karp dynamic programming solution to TSP: for a given 
 velocity check if a Hamiltonian path exists in O(n².2^n). Your objective is to minimize the time at which you will reach each node.
 Final complexity O(log(Vmax).n².2^n) where Vmax is an arbitrary large velocity at which a Hamiltonian path can be found.
-#Bipartit check 
-The problem is to separate the items in two different sets, knowig that an item A can't be deivred with item B
-The solution is to use the Graph Coloring,  or birpartit check, using unweighted graph, and each edge connecte two different items 
-that can not be delivred with the same person, and the nodes are items to be delivred.
